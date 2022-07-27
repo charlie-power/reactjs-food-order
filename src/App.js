@@ -19,8 +19,13 @@ function App() {
   return (
     <CartProvider>
 <<<<<<< HEAD
+<<<<<<< HEAD
       <Cart />
       <Header />
+=======
+      {cartIsShown && <div>Cart...</div>}
+      <Header onShowCart={showCartHandler}/>
+>>>>>>> feat/cart-logic
 =======
       {cartIsShown && <div>Cart...</div>}
       <Header onShowCart={showCartHandler}/>
